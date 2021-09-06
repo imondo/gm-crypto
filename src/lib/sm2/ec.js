@@ -3,7 +3,7 @@
 // Only Fp curves implemented for now
 
 // Requires jsbn.js and jsbn2.js
-import { BigInteger } from 'jsbn'
+import { BigInteger } from './jsbn'
 const { Barrett } = BigInteger.prototype
 
 // Basic Javascript Elliptic Curve implementation

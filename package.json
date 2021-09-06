@@ -15,8 +15,8 @@
   "scripts": {
     "commit": "cz",
     "clean": "rm -rf dist",
-    "build": "npm run clean && microbundle --entry src/index.js --sourcemap false",
-    "build:coverage": "npm run clean && microbundle --entry src/index.js --sourcemap true",
+    "build": "microbundle --entry src/index.js --sourcemap false",
+    "build:coverage": "microbundle --entry src/index.js --sourcemap true",
     "test": "npm run build:coverage && nyc --reporter=text --reporter=lcovonly ava -v",
     "prepublishOnly": "npm run build"
   },

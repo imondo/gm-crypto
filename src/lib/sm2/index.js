@@ -1,6 +1,6 @@
-import toArrayBuffer from 'to-arraybuffer'
-import { Buffer } from 'buffer' // 兼容浏览器环境
-import { BigInteger, SecureRandom } from 'jsbn'
+import { toArrayBuffer } from '../utils'
+import { Buffer } from '../../../node_modules/buffer' // 兼容浏览器环境
+import { BigInteger, SecureRandom } from './jsbn'
 
 import { ECCurveFp } from './ec'
 import { C1C2C3, C1C3C2, PC } from './const'

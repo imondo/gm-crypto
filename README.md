@@ -1,5 +1,15 @@
 # gm-crypto
 
+## 注意
+
+- 这个版本是我基于[gm-crypto](https://github.com/byte-fe/gm-crypto) 库迁出的分支，由于我在 `gm-crypto` 库上打包 `umd` 后引入报错，才有这个分支存在。
+
+- 对于库内只修改了一些引入代码，并没有对加解密主要逻辑进行修改
+
+- 本人只在自己公司内部生产环境使用，不保证各位生产环境能成功
+
+- 可以自己拉取代码打包，或者直接使用 `dist` 目录下文件
+
 [![Build Status](https://travis-ci.com/byte-fe/gm-crypto.svg?branch=main)](https://travis-ci.com/byte-fe/gm-crypto)
 [![codecov](https://codecov.io/gh/byte-fe/gm-crypto/branch/main/graph/badge.svg?token=5UbUw8VKYh)](https://codecov.io/gh/byte-fe/gm-crypto)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)

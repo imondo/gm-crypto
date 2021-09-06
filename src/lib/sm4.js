@@ -1,5 +1,5 @@
-import toArrayBuffer from 'to-arraybuffer'
-import { Buffer } from 'buffer' // 兼容浏览器环境
+import { toArrayBuffer } from './utils'
+import { Buffer } from '../../node_modules/buffer' // 兼容浏览器环境
 import { leftShift } from './utils'
 
 // 两种分组模式
